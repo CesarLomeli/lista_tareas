@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Tareas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Gestión de Tareas</h1>
+
+    <!-- Formulario para agregar tarea -->
+    <form id="taskForm">
+        <input type="text" id="title" placeholder="Título" required>
+        <textarea id="description" placeholder="Descripción"></textarea>
+        <button type="submit">Agregar</button>
+    </form>
+
+    <!-- Lista de tareas -->
+    <h2>Lista de Tareas</h2>
+    <ul id="taskList"></ul>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
